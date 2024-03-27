@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #baa3a3;
+
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 100px auto;
+  width: 80%;
+  min-height: 70vh;
+}
+
+.image {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 5rem ;
+ font-size: 1.2rem;
+ gap: 5px;
+}
+
+.pagination .page-num {
+  padding: 8px 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover {
+  background-color: #9e8a8a;
+  color: #eee7e7;
+}
+
+.active {
+  background-color: #9e8a8a;
+  color: #eee7e7;
+}
